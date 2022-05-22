@@ -1,0 +1,10 @@
+created: 20220522051401629
+creator: Mynanase
+modified: 20220522061915006
+modifier: Mynanase
+tags: havefun
+title: QQ音乐
+tmap.id: 3e0c3c62-50db-4f84-ad8c-799659b8916b
+type: text/vnd.tiddlywiki
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=530 height=286  src="https://simple-notion-widgets.vercel.app/music-player/?server=tencent&type=playlist&id=8437040427&list-folded=ture&theme=green&order=random"></iframe>

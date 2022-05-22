@@ -1,0 +1,13 @@
+created: 20220522054800533
+creator: Mynanase
+modified: 20220522055051525
+modifier: Mynanase
+tags: 部分操作
+title: 音乐播放器 simple-notion-widgets
+tmap.id: 3ec766d7-de56-410e-bd8c-8167885f654f
+type: text/vnd.tiddlywiki
+
+```
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=530 height=286 src="https://simple-notion-widgets.vercel.app/music-player/?server=tencent&type=playlist&id=8437040427"></iframe>
+```
+* `id`后面接你的歌单
