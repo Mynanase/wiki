@@ -1,6 +1,7 @@
 created: 20220522042937552
 creator: Mynanase
-modified: 20220522055108378
+list: 电磁学第六章 热学复习 热学作业1 热学作业2 card
+modified: 20220522062735709
 modifier: Mynanase
 title: 任务
 tmap.id: 0cfb4a2f-f0ce-4de4-b4d2-06250f532129
@@ -13,10 +14,10 @@ type: text/vnd.tiddlywiki
 <br/>
 
 !!''待办''
-!!! <<list-tagged-draggable tag:"任务" subFilter:"!has[draft.of]!tag[done]" itemTemplate:"TaskManagementExampleDraggableTemplate" emptyMessage:"You don't have any active tasks">>
+ <<list-tagged-draggable tag:"任务" subFilter:"!has[draft.of]!tag[done]" itemTemplate:"TaskManagementExampleDraggableTemplate" emptyMessage:"You don't have any active tasks">>
 !! ''已完成 ''
 
-!!! <$list filter="[!has[draft.of]tag[任务]tag[done]sort[created]]">
+ <$list filter="[!has[draft.of]tag[任务]tag[done]sort[created]]">
 <div>
 <$checkbox tag="done"> ~~<$link/>~~</$checkbox>
 </div>
