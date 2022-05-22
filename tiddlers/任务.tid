@@ -1,0 +1,27 @@
+created: 20220522033805354
+creator: Mynanase
+modified: 20220522035536609
+modifier: Mynanase
+tags: Mynanase
+title: 任务
+tmap.id: 4d5a0c5a-72f8-42e3-9c63-52ee6cff2133
+type: text/vnd.tiddlywiki
+wysiwyg: yes
+
+<$button>
+		<$action-sendmessage $message="tm-new-tiddler" title="新任务" text="""""" tags="任务" />
+	新的待办
+</$button>
+<br/>
+
+!!''待办''
+ 
+!!! <<list-tagged-draggable tag:"任务" subFilter:"!has[draft.of]!tag[done]" itemTemplate:"TaskManagementExampleDraggableTemplate" emptyMessage:"都干好了
+
+!! ''已完成 ''
+
+!!! <$list filter="[!has[draft.of]tag[任务]tag[done]sort[created]]">
+<div>
+<$checkbox tag="done"> ~~<$link/>~~</$checkbox>
+</div>
+</$list>
