@@ -1,0 +1,55 @@
+created: 20220520224043100
+modified: 20220520225217961
+tags: pravicy Learning Tiddly shiraz
+title: 徽章1
+tmap.id: 9e67f488-dfa6-4f94-98b0-3dccd645082b
+type: text/vnd.tiddlywiki
+
+!! 1.基本徽章列表
+!!!	1.`badge`
+
+<<badge primary "primary badge" src="www.baidu.com">>
+<<badge secondary "secondary badge">>
+<<badge success "success badge">>
+<<badge warning "warning badge">>
+<<badge danger "danger badge">>
+<<badge info "info badge">>
+<<badge light "light badge">>
+<<badge dark "dark badge">>
+!!! 2.`badge-bpill`
+
+<<badge-pill primary "primary badge">> <<badge-pill secondary "secondary badge">>
+<<badge-pill success "success badge">>
+<<badge-pill warning "warning badge">>
+<<badge-pill danger "danger badge">>
+<<badge-pill info "info badge">>
+<<badge-pill light "light badge">>
+<<badge-pill dark "dark badge">>
+
+* 语法
+```
+<<badge type:"primary" src:"">>
+<<badge-pill type:"primary" src:"">>
+```
+!! 2.徽章状态
+* 语法
+```
+<<dbadge subject status type>>
+```
+# status : 状态,关系
+* 库
+# 以状态引用
+<<dbadge "Tiddlywiki" "5.1.18" "info">>
+<<dbadge "Node.js" "passed">>
+<<dbadge "Windows" "7, 8.1, 10" "warning">>
+<<dbadge "Android" "supported" "danger">>
+<<dbadge "coverage" "Html5" "success">>
+# 直接设置颜色
+<<dbadge "primary" "blue" primary>> 
+<<dbadge "info" "cyan" info>> 
+<<dbadge "success" "green" success>> 
+<<dbadge "warning" "yellow" warning>>
+<<dbadge "danger" "red" danger>>
+
+!! 3.标题的徽章
+* 添加 `!` 即可

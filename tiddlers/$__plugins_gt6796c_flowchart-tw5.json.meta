@@ -1,0 +1,9 @@
+author: Nathaniel Jones
+core-version: >=5.0.8
+dependents: 
+description: Wrappers for flowchart.js and js-sequence-diagram
+list: readme usage example-flowchart example-seqdiag
+plugin-type: plugin
+title: $:/plugins/gt6796c/flowchart-tw5
+type: application/json
+version: 0.2.3

@@ -1,0 +1,15 @@
+caption: BodyFooter
+code-body: yes
+created: 20211001231029099
+creator: Télumire
+modified: 20220521022149395
+modifier: oeyoews
+tagging: after
+tags: $:/footer $:/tags/RawMarkupWikified/BottomBody
+title: $:/plugins/oeyoews/twfooter/footer
+type: text/vnd.tiddlywiki
+
+`<footer>`
+<$list filter="[!is[system]!has[draft.of]!sort[modified]limit[1]]">
+Updated <$view field="modified" format="relativedate"/>
+`</footer>`

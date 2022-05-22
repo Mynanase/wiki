@@ -1,0 +1,16 @@
+created: 20220520210247325
+modified: 20220520210513658
+tags: pravicy Tiddly 初学者 shiraz 模板
+title: Shiraz-警告宏
+tmap.id: af596345-38df-452f-8c50-b3f6ca219ff4
+type: text/vnd.tiddlywiki
+
+<<alert primary "primary alert" width:60%>>
+
+<<alert secondary "secondary alert" width:60%>>
+<<alert success "success alert" width:60%>>
+<<alert warning "warning alert" width:60%>>
+<<alert danger "danger alert" width:60%>>
+<<alert info "info alert" width:60%>>
+<<alert light "light alert" width:60%>>
+<<alert dark "dark alert" width:60%>>

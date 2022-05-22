@@ -1,0 +1,27 @@
+created: 20220520172916765
+icon: 📅
+modified: 20220520233757201
+page-cover: https://source.unsplash.com/random
+tags: pravicy
+title: 任务面板
+tmap.id: 12858d4e-c187-4043-a3f4-215fc7c4f4b7
+type: text/vnd.tiddlywiki
+
+<$button>
+		<$action-sendmessage $message="tm-new-tiddler" title="新任务" text="""""" tags="任务" />
+	新的待办
+</$button>
+<br/>
+
+!!''待办''
+ 
+!!! <<list-tagged-draggable tag:"任务" subFilter:"!has[draft.of]!tag[done]" itemTemplate:"TaskManagementExampleDraggableTemplate" emptyMessage:"You don't have any active tasks">>
+
+!! ''已完成 ''
+
+!!! <$list filter="[!has[draft.of]tag[任务]tag[done]sort[created]]">
+<div>
+<$checkbox tag="done"> ~~<$link/>~~</$checkbox>
+</div>
+</$list>
+

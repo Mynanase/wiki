@@ -1,0 +1,3 @@
+<div class="tc-remove-when-wiki-loaded">
+加载中...
+</div>

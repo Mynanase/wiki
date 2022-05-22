@@ -1,0 +1,10 @@
+created: 20220520183255708
+modified: 20220520183930109
+tags: 
+title: test
+tmap.id: d0c2cf52-7cf2-4cff-81e6-b4beffd0578c
+type: text/vnd.tiddlywiki
+
+```python
+import tensorflow as tf
+```

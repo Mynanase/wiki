@@ -1,0 +1,8 @@
+created: 20180307153530187
+modified: 20220520193712528
+tags: Learning 模板
+title: TaskManagementExampleDraggableTemplate
+tmap.id: 97fccce8-c3ac-45ec-b39b-e830baec201b
+type: text/vnd.tiddlywiki
+
+<$checkbox tag="done"> <$link/></$checkbox>

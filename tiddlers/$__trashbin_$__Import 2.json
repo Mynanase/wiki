@@ -1,0 +1,12 @@
+{
+    "created": "20220521020211672",
+    "title": "$:/Import",
+    "type": "application/json",
+    "plugin-type": "import",
+    "status": "pending",
+    "message-$:/plugins/mermaid-tw5": "封锁的插件 (由于传入的 0.3.5 不比现有版本 0.3.5 新)。",
+    "selection-$:/plugins/mermaid-tw5": "unchecked",
+    "suppressed-$:/plugins/mermaid-tw5": "yes",
+    "text": "{\n    \"tiddlers\": {\n        \"$:/plugins/mermaid-tw5\": {}\n    }\n}",
+    "modified": "20220521020212676"
+}

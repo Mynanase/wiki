@@ -1,0 +1,14 @@
+{
+    "created": "20220521014430531",
+    "text": "{\n    \"tiddlers\": {\n        \"Untitled 1\": {\n            \"title\": \"Untitled 1\",\n            \"text\": \"http://github.com/cedarvera/mermaid-tw5\"\n        },\n        \"$:/plugins/gt6796c/mermaid-tw5\": {}\n    }\n}",
+    "title": "$:/Import",
+    "status": "pending",
+    "type": "application/json",
+    "plugin-type": "import",
+    "popup-Untitled 1": "yes",
+    "modified": "20220521014609358",
+    "message-$:/plugins/gt6796c/mermaid-tw5": "封锁的插件 (由于传入的 0.2.1 不比现有版本 0.2.1 新)。",
+    "selection-$:/plugins/gt6796c/mermaid-tw5": "unchecked",
+    "suppressed-$:/plugins/gt6796c/mermaid-tw5": "yes",
+    "selection-Untitled 1": "unchecked"
+}

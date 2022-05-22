@@ -1,0 +1,9 @@
+author: Nathaniel Jones
+core-version: >=5.0.8
+dependents: 
+description: Simple graphing library
+list: readme usage example license
+plugin-type: plugin
+title: $:/plugins/gt6796c/graph-tw5
+type: application/json
+version: 0.1.7

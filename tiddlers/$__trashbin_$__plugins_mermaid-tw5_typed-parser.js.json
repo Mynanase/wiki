@@ -1,0 +1,8 @@
+{
+    "created": "20211010222845127",
+    "text": "/*\ntitle: $:/plugins/mermaid-tw5/typed-parser.js\ntype: application/javascript\nmodule-type: parser\nauthor: Nathaniel Jones 2017-05-26\nmodified: E Furlan 2022-05-08\n\nThis parser wraps unadorned railroad syntax into a railroad widget\n\n*/\n(function() {\n    // jslint node: true, browser: true\n    // global $tw: false\n    'use strict';\n    let MermaidParser = function(type, text, options) {\n        let element = {\n            type: \"mermaid\",\n            tag: \"$mermaid\",\n            text: text\n        };\n        this.tree = [element];\n    };\n    exports[\"text/vnd.tiddlywiki.mermaid\"] = MermaidParser;\n})();",
+    "title": "$:/plugins/mermaid-tw5/typed-parser.js",
+    "type": "application/javascript",
+    "modified": "20220508170254544",
+    "module-type": "parser"
+}

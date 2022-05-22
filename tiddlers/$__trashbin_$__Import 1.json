@@ -1,0 +1,14 @@
+{
+    "created": "20220521015732491",
+    "text": "{\n    \"tiddlers\": {\n        \"Untitled 1\": {\n            \"title\": \"Untitled 1\",\n            \"text\": \"https://groups.google.com/g/tiddlywiki/c/l_uxgh_tsDU\"\n        },\n        \"$:/plugins/mermaid-tw5\": {}\n    }\n}",
+    "title": "$:/Import",
+    "status": "pending",
+    "type": "application/json",
+    "plugin-type": "import",
+    "popup-Untitled 1": "yes",
+    "modified": "20220521020116755",
+    "message-$:/plugins/mermaid-tw5": "封锁的插件 (由于传入的 0.3.5 不比现有版本 0.3.5 新)。",
+    "selection-$:/plugins/mermaid-tw5": "unchecked",
+    "suppressed-$:/plugins/mermaid-tw5": "yes",
+    "selection-Untitled 1": "unchecked"
+}

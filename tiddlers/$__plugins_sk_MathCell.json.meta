@@ -1,0 +1,8 @@
+author: Stephen Kimmel
+description: MathCell
+list: MathCell List
+name: MathCell
+plugin-type: plugin
+title: $:/plugins/sk/MathCell
+type: application/json
+version: 0.0.4

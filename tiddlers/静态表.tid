@@ -1,0 +1,55 @@
+created: 20220520230652170
+modified: 20220520233453188
+tags: pravicy Tiddly shiraz 学习
+title: 静态表
+tmap.id: 3aad4bf0-6526-43b9-9903-c09fdc4369e5
+type: text/vnd.tiddlywiki
+
+!! 样式展示
+```
+|table-striped-row table-hover-cyan|k
+|This is a sample table|c
+|One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|h
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|f
+```
+
+|table-striped-row table-hover-cyan|k
+|This is a sample table|c
+|One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|h
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|f
+---
+
+!! ''class'' : 
+*`class01 class02` : 表类
+!!! 去边框 : `table-borderless`
+!!! 贴加色彩 : 
+`thead-light` `thead-dark` `thead-danger` `thead-warning`  `thead-success` `thead-secondary`  `thead-primary`
+
+!!! 悬停效果 : 
+`table-hover` : 亮灰色作为背景色 
+
+`table-hover-cyan` : 青色背景色
+
+`table-hover-yellow` : 黄色背景色
+
+!!! 表格宽度 :
+`w-25` `w-50` `w-75` `w-100`
+
+!!! 表头标题设置 :
+`table-caption-top`
+
+!!! 条纹表
+`table-striped-row` : 条纹行
+`table-striped-col` : 条纹列
+
+!!! 标准表 : `caption-topxx`

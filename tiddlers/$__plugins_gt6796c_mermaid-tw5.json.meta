@@ -1,0 +1,9 @@
+author: Nathaniel Jones
+core-version: >=5.0.8
+dependents: 
+description: Wrappers for mermaid.js
+list: readme usage example license
+plugin-type: plugin
+title: $:/plugins/gt6796c/mermaid-tw5
+type: application/json
+version: 0.2.1

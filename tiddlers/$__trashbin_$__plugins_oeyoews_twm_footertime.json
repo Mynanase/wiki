@@ -1,0 +1,10 @@
+{
+    "title": "$:/plugins/oeyoews/twm/footertime",
+    "created": "20220514115554640",
+    "modified": "20220514115616116",
+    "tags": "twm",
+    "type": "text/vnd.tiddlywiki",
+    "text": "<hr>\n<div style=\"color: gray; text-align: center;font-size:12px;\">\n\n\n<$list filter=\"[!is[system]!has[draft.of]!sort[modified]limit[1]]\">\nUpdated <$view field=\"modified\" format=\"relativedate\"/>\n<div>",
+    "revision": "0",
+    "bag": "default"
+}

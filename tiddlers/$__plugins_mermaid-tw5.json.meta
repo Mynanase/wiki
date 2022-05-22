@@ -1,0 +1,12 @@
+author: 
+core-version: 
+created: 20211010201548603
+dependents: 
+description: Wrapper for mermaid.js
+list: readme usage example license
+modified: 20220508180534236
+plugin-type: plugin
+tags: 
+title: $:/plugins/mermaid-tw5
+type: application/json
+version: 0.3.5

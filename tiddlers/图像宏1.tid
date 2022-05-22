@@ -1,0 +1,31 @@
+created: 20220520213448462
+modified: 20220520215347406
+tags: pravicy shiraz Tiddly
+title: 图像宏1
+tmap.id: e702fa96-7889-41b9-93a1-c8f2d6a8713f
+type: text/vnd.tiddlywiki
+
+ * 句法1: `image-basic`
+```
+ <<image-basic img width:"" align:"" caption:"" tooltip:"" alt:"">>
+```
+# `align` : `left` `right` `center` `none`
+# `caption`: 标题
+# `tooltip` : 工具
+# `alt` : 关联文本
+* 例子
+ <<image-basic lp.jpg width:"200px" align:"center" caption:"莎莎" tooltip:"demo of image-basic macro" alt:"">>
+ * 句法1: `image-pretty`
+```
+ <<image-pretty img width:"" align:"" caption:"" tooltip:"" alt:"">>
+```
+# 同上
+* 例子:
+<<image-pretty img:"lp.jpg" width:"200px" align:"center" caption:"纱纱" tooltip:"demo of image-pretty macro">>
+
+ * 句法3: `image-polaroid`
+```
+<<image-polaroid img:"" width:"" align:"" caption:"" tooltip:"" alt:"">>
+```
+# 同上
+<<image-polaroid img:"lp.jpg" width:"200px" align:"center" caption:"莎莎" tooltip:"demo image-polaroid macro" alt:"">>
